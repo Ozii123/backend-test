@@ -1,5 +1,16 @@
 # backend-test
 
+### Python Version
+```
+Python 3.7
+```
+
+
+### Instructions
+- Clone the repository
+    ``` cd backedn-test ``` 
+- create virtual environment and run
+    ``` pipenv shell ```
 
 ### Install the dependencies
 ```
