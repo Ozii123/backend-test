@@ -22,7 +22,7 @@ class SectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Section
         fields = ['id','created_at','last_updated', 'title', 'body','parent_section']
-        depth = 3
+        depth = 2
     def create(self, validated_data):
         return Section.objects.create(**validated_data)
     

@@ -11,4 +11,4 @@ class Section(models.Model):
     last_updated  =  models.DateTimeField(blank=True,null=True)
     title      = models.TextField()
     body        = models.TextField()
-    parent_section  = models.ForeignKey('self', blank=True, null=True, on_delete=models.NOT_PROVIDED)
+    parent_section  = models.ForeignKey('self', blank=True, null=True, on_delete=models.PROTECT)
